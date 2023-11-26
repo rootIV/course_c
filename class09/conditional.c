@@ -5,7 +5,20 @@
 
 int main(void)
 {
-  
+  int a = 359;
+
+  if (-1 == a)
+  {
+    int key = 3;
+    printf("key: %d\n", key);
+  } 
+
+  /*{  
+    int key = 3;
+    print("key: %d\n", key)
+  }*/
+
+  printf("O valor de a: %d\n", a);
 
   return 0;
 }
