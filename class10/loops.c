@@ -10,7 +10,7 @@ int main(void)
 //loop:
   for(unsigned int i = 0; i < 3; i++)
   {
-    printf("O valor de i é: %u\n", i);
+    printf("i value: %u\n", i);
   }
 
   //i++;

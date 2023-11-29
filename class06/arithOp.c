@@ -4,13 +4,13 @@
 #include <stdlib.h>
 
 /*
- * = atribuição
- * + - unarios (positivo e negativo)
- * + - binarios (adição e subtração)
- * * / (multiplicação e divisão)
- * % (resto da divisão)
- * ++ (incremento)
- * -- (decremento)
+ * = assignment
+ * + - unary (positive e negative)
+ * + - binary (sum e subtract)
+ * * / (multiply e divide)
+ * % (division rest)
+ * ++ (increment)
+ * -- (decrement)
  */
 
 int main(void){
@@ -23,7 +23,7 @@ int main(void){
   ++a;
   printf("Variable 'a' incremented: %d\n", a);
 
-  //First print a with previous value than increment
+  //First print 'a' with previous value than increment
   printf("\nShowing variable 'a' incrementing after (a++): %d\n", a++);
   printf("Variable already incremented (but printed last value before increment),\nIncrementing variable 'a': a++\n");
   a++;

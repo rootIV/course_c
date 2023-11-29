@@ -18,7 +18,7 @@ int main(void)
     print("key: %d\n", key)
   }*/
 
-  printf("O valor de a: %d\n", a);
+  printf("'a' value: %d\n", a);
 
   return 0;
 }

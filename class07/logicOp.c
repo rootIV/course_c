@@ -4,28 +4,28 @@
 #include <stdlib.h>
 
 /*
- * Em operadores:
- * 0 : Negativo
- * > 0 : Positivo
+ * Operators:
+ * 0 : Negative
+ * > 0 : Positive
  *
- * && : Avaliada Primeiro
- * || : Ultimo a ser resolvido
+ * && : evaluated first
+ * || : last to be evaluated
  * Ex : 
  * (&&||&&||&&||&&||&&||&&||&&||&&)
  * (&&||&&||&&||&&)
  * (&&||&&)
  *
- * Conjuncao (E, AND)
- * 0 0 - Falso
- * 0 1 - Falso
- * 1 0 - Falso
- * 1 1 - Verdadeiro
+ * Conjunction (AND)
+ * 0 0 - False
+ * 0 1 - False
+ * 1 0 - False
+ * 1 1 - True
  *
- * Disjuncao (Ou, OR)
- * 0 0 - Falso
- * 1 0 - Verdadeiro
- * 0 1 - Verdadeiro
- * 1 1 - Verdadeiro
+ * Disjunction (OR)
+ * 0 0 - False
+ * 1 0 - True
+ * 0 1 - True
+ * 1 1 - True
  */
 
 int main(void)

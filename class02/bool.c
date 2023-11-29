@@ -12,7 +12,7 @@ int main(void){
 
   b = false;
   
-  printf("O tamanho de b (bool) é : %lu\n", sizeof b);
+  printf("b (bool) size is : %lu\n", sizeof b);
 
   return 0; 
 }

@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 /*
-* int8_t, int16_t, int32_t : pertence a biblioteca <stdint.h>
+* int8_t, int16_t, int32_t : belongs to <stdint.h>
 * %zu : unsigned int 32 bits, unsigned long 64 bits size_t
 * %zd : signed int 32 bits, signed long 64 bits ssize_t
 * %llu: unsigned long long
@@ -18,12 +18,12 @@ int main(void){
   size_t sizeT;
   register int registerInt;
 
-  printf("O valor máximo de int%zd_t: %d\n", sizeof sInt * 8, sInt);
-  printf("O valor mínimo de int%zd_t: %d\n", sizeof sIntMin * 8, sIntMin);
-  printf("O valor máximo de unsigned uint%zu_t: %u\n", sizeof uInt * 8, uInt);
-  printf("O valor máximo de long long (%zd bits): %llu\n", sizeof sLong * 8, sLong);
-  printf("O valor de size_t (%zd bits): %llu\n", sizeof sLong * 8, sLong);
-  printf("O valor de register int (%zd bits): %d\n", sizeof sLong * 8, registerInt);
+  printf("Max value of int%zd_t: %d\n", sizeof sInt * 8, sInt);
+  printf("Min value of int%zd_t: %d\n", sizeof sIntMin * 8, sIntMin);
+  printf("Max value of unsigned uint%zu_t: %u\n", sizeof uInt * 8, uInt);
+  printf("Max value of long long (%zd bits): %llu\n", sizeof sLong * 8, sLong);
+  printf("size_t value (%zd bits): %llu\n", sizeof sLong * 8, sLong);
+  printf("int register (%zd bits) value: %d\n", sizeof sLong * 8, registerInt);
 
   return 0;
 }

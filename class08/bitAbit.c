@@ -14,7 +14,7 @@
  * 1 0 : 1
  * 0 1 : 1
  * 0 0 : 0
- * ^ xor (ou exclusivo)
+ * ^ xor (or exclusive)
  * 0 1 : 1
  * 1 0 : 1
  * 0 0 : 0
@@ -34,15 +34,15 @@ int main(void)
   //int a = 0b10000000000000000000000000000000;
   //int b = 0b01111111111111111111111111111111;
 
-  //printf("O resultado de a, b e c : %d, %d, %d\n", a, b, c);
-  printf("O resultado de shift left a << 1 : %d\n", a << 3);
-  printf("O resultado de shift right a >> 1 : %d\n", a >> 2);
-  /*printf("O resultado de b : %d\n", b);
-   * printf("O resultado de ~a : %d\n", ~a);
-   * printf("O resultado de ~b : %d\n", ~b);
-   * printf("O resultado de a | b : %d\n", a | b);
-   * printf("O resultado de a & b : %d\n", a & b);
-   * printf("O resultado de a ^ b : %d\n", a ^ b);
+  //printf("result of 'a', 'b' e 'c' : %d, %d, %d\n", a, b, c);
+  printf("shift left a << 1 result: %d\n", a << 1);
+  printf("shift right a >> 1 result : %d\n", a >> 1);
+  /*printf("b result: %d\n", b);
+   * printf("~a result: %d\n", ~a);
+   * printf("~b result: %d\n", ~b);
+   * printf("a | b result: %d\n", a | b);
+   * printf("a & b  result: %d\n", a & b);
+   * printf("a ^ b  result: %d\n", a ^ b);
   */
 
   return 0;
