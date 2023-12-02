@@ -19,7 +19,7 @@ int main(void)
           printf("REUSING: A[%d] + %d: %d [%p]\n", i - k, j, A[i - k] + j, (void*)&A[i - k] + j);
         }
         if(i > 0 && A[i] + 1 == A[i - k] + j){
-          printf("REUSING: AAAA[%d] + %d: %d [%p]\n", i - k, j, A[i - k] + j, (void*)&A[i - k] + j);
+          printf("REUSING: A[%d] + %d: %d [%p]\n", i - k, j, A[i - k] + j, (void*)&A[i - k] + j);
         }
       }
     }
